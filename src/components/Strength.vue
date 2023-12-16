@@ -91,18 +91,11 @@
 <style scoped>
     .strength {
         font-family: 'NanumBarunGothic';
-        /* background-color: aqua; */
         width: 77.5rem;
     }
     .strFile {
         display: flex;
-        /* position: relative; */
     }
-    /* .frame {
-        width: 20rem;
-        height: 50rem;
-        background-color: black;
-    } */
     .myFolder {
         display: flex;
         flex-direction: column;
@@ -125,7 +118,6 @@
         font-size: 2rem;
         margin-top: 1rem;
         margin-bottom: 2.5rem;
-        /* background-color: brown; */
     }
     .myFolderIndex {
         z-index: 110;
@@ -160,32 +152,23 @@
         height: 8rem;
     }
     .allList {
-        /* height: 11rem; */
         width: 10rem;
         margin-right: 0.5rem;
         font-family: 'JalnanGothic';
         font-size: 2.5rem;
         font-weight: bolder;
         text-align: center;
-        /* display: flex; */
         flex-direction: column;
-        /* justify-content: center; */
-        /* background: khaki; */
     }
     .allNum {
         font-size: 3.5rem;
         margin-bottom: 0.5rem;
     }
     .allExp {
-        /* display: flex; */
-        /* align-items: center; */
         font-size: 1.4rem;
         width: 21.5rem;
-        /* background-color: gold; */
     }
     .folder {
-        /* display: flex; */
-        /* width: 28.5rem; */
         width: 32rem;
         height: 38.5rem;
         margin-top: 0.75rem;
@@ -193,8 +176,6 @@
         border: 0.15rem solid black;
         border-radius: 1rem;
         position: absolute;
-        /* justify-content: center; */
-        /* align-items: center; */
         background-color: white;
         transition: all 1s;
     }
@@ -209,11 +190,9 @@
     }
     #secondFolder {
         z-index: 40;
-        /* background-color: blue; */
     }
     #thirdFolder {
         z-index: 20;
-        /* background-color: blueviolet; */
     }
     .backIndex {
         display: flex;
@@ -260,20 +239,17 @@
         align-items: end;
         vertical-align: text-bottom;
         background-color: transparent;
-        /* border-right: 0.15rem solid black; */
     }
     #firstIndex {
         z-index: 70;
     }
     #secondIndex {
         z-index: 50;
-        /* border: 2px solid black; */
         margin-top: 8.15rem;
     }
     #thirdIndex {
         z-index: 30;
         margin-top: 16.3rem;
-
     }
     .str {
         display: flex;
@@ -282,8 +258,6 @@
         height: 38.5rem;
         text-align: center;
         justify-content: center;
-        /* margin-left: 2rem; */
-        /* background-color: khaki; */
         transition: all 0.5s;
 
     }
@@ -295,6 +269,5 @@
     .keyExp {
         font-size: 2rem;
         padding-bottom: 3rem;
-        /* width: 35rem; */
     }
 </style>

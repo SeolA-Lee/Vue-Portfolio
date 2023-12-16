@@ -1,13 +1,10 @@
 .projectWrapper {
-    /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .projSubArticle {
     width: 87rem;
-    /* height: 100rem; */
-    /* background-color: antiquewhite; */
     display: flex;
 }
 .projectDiv {
@@ -16,7 +13,6 @@
     margin-top: 6dvh;
     margin-left: 2rem;
     flex-direction: column;
-    /* background-color: blue; */
 }
 .projSubTitleDiv {
     font-family: 'JalnanGothic';
@@ -29,27 +25,22 @@
 }
 .projSubDiv {
     display: flex;
-    /* background-color: brown; */
     margin: 1rem;
 }
 .projCont {
     font-weight: bolder;
     width: 10rem;
     font-size: 2.2rem;
-    /* background-color: blue; */
 }
 .projContUl {
     width: 52rem;
-    /* background-color: green; */
     margin: 0;
 }
 .projContLi:not(:last-of-type){
-    /* background-color: bisque; */
     margin-bottom: 0.7rem;
 }
 .projContExp, .conclusion {
     width: 52rem;
-    /* background-color: gold; */
     padding-left: 2.5rem;
 }
 

@@ -57,7 +57,7 @@
             contentChange(key) {
                 this.index = key;
             }
-        },
+        }
     }
 </script>
 

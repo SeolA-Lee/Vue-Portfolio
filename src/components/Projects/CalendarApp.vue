@@ -50,7 +50,6 @@
         width: 20rem;
         height: 37rem;
         border-radius: 2.7rem;
-        /* border: 1px solid black; */
         position: sticky;
         top: 15dvh;
     }

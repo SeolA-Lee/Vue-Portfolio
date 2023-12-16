@@ -21,12 +21,10 @@
     box-shadow: 0.5rem 0.5rem 0.5rem cornflowerblue;
 }
 .activityDiv {
-    /* background-color: blue; */
     font-family: 'NanumBarunGothic';
     font-size: 2rem;
     margin-top: 6dvh;
     margin-left: 1rem;
-    /* flex-direction: column; */
 }
 .actSubTitleDiv {
     font-family: 'JalnanGothic';
@@ -38,29 +36,24 @@
     float: left;
 }
 .actSubDiv {
-    /* background-color: brown; */
     display: flex;
     margin: 1rem;
 }
 .actSubDiv:not(:last-of-type) {
-    /* background-color: blue; */
     margin-bottom: 1.5rem;
 }
 .actCont {
     font-weight: bolder;
     width: 10rem;
     font-size: 2.2rem;
-    /* background-color: green; */
 }
 .actContDate {
     width: 45rem;
     padding-left: 2.5rem;
-    /* background-color: yellow; */
 }
 .actContUl {
     width: 45rem;
     margin: 0;
-    /* background-color: gray; */
 }
 .actContLi:not(:last-of-type) {
     margin-bottom: 0.7rem;

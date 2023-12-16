@@ -10,7 +10,6 @@
                     <button class="page" @click="setPage(2)">&gt;</button>
                 </div>
             </div>
-            <hr class="clip" />
             <div class="profileDiv">
                 <div class="page1" v-show="currentPage === 1">
                     <div class="profile">
@@ -144,14 +143,6 @@ export default {
     .page:hover {
         background-color: white;
     }
-    .clip {
-        position: absolute;
-        border: 0.1rem solid gray;
-        top: 10rem;
-        width: 3rem;
-        transform: rotate(-45deg);
-        
-    }
     .profileDiv {
         flex-direction: column;
         display: flex;
@@ -160,19 +151,15 @@ export default {
         padding-left: 3rem;
         height: 42rem;
         width: 60rem;
-        /* background-color: aqua; */
     }
     .page1 {
-        /* background-color: green; */
         padding-left: 2.5rem;
     }
     .page1, .page2 {
         display: flex;
         flex-direction: column;
-        /* background-color: blue; */
         height: 42rem;
         justify-content: center;
-        /* align-items: center; */
     }
     .introTitle {
         font-family: 'JalnanGothic';
@@ -182,22 +169,18 @@ export default {
     }
     .profile {
         margin-bottom: 4rem;
-        /* background-color: skyblue; */
     }
     .profSub, .eduSub {
         display: flex;
         margin-left: 1rem;
         margin-bottom: 0.6rem;
-        /* background-color: palegreen; */
     }
     .profItem {
         width: 11rem;
         font-weight: 700;
-        /* background-color: blue; */
     }
     .profItemSub {
         width: 30rem;
-        /* background-color: gray; */
     }
     .link {
         text-decoration: none;
@@ -209,27 +192,18 @@ export default {
     }
     .eduDate {
         width: 22rem;
-        /* background-color: blue; */
     }
     .eduName {
         width: 26rem;
-        /* background-color: gray; */
     }
     #eduMaj {
         font-size: 1.3rem;
     }
-    .skill {
-        /* display: none; */
-        /* flex-direction: column; */
-        /* background-color: brown; */
-    }
     .skList {
         display: flex;
         margin-top: 2rem;
-        /* background-color: blue; */
     }
     .skSub {
-        /* flex-direction: row; */
         font-weight: 700;
         text-align: center;
         width: 18rem;
@@ -255,7 +229,6 @@ export default {
     .skImg {
         display: flex;
         height: 17rem;
-        /* background-color: aquamarine; */
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
@@ -264,13 +237,10 @@ export default {
     .fronts, .backs {
         width: 7rem;
         height: 7rem;
-        /* background-color: aqua; */
     }
     .gits {
         width: 5.5rem;
         height: 5.5rem;
         margin: 1rem;
-        /* background-color: aqua; */
-
     }
 </style>

@@ -44,7 +44,6 @@
         text-align: center;
         min-height: 63dvh;
         padding-top: 4.5rem;
-        /* background-color: aliceblue; */
     }
     .mainImg {
         width: 10rem;

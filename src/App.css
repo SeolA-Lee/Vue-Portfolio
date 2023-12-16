@@ -23,9 +23,7 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 5rem; */
     min-height: 89dvh;
-    /* min-width: 181dvh; */
     background-color: aliceblue;
 }
 
@@ -40,10 +38,7 @@ div {
     right: 0;
     z-index: 1000;
     font-size: 2.5rem;
-    /* height: 5rem; */
-    /* min-width: 181dvh; */
     background-color: white;
-    /* background-color: transparent; */
     box-shadow: 0 1px 4px silver;
 }
 .title {
@@ -52,8 +47,6 @@ div {
     line-height: 5rem;
     cursor: pointer;
     padding-left: 1rem;
-    /* background-color: aquamarine; */
-    /* height: 15rem; */
 }
 
 .mainTitle, .mainMenuTitles, .subMenuTitles {
@@ -69,21 +62,17 @@ div {
     display: flex;
     padding: 0 1rem;
     font-size: 1.7rem;
-    /* background-color: aqua; */
-    /* height: 15rem; */
     justify-content: right;
 }
 .mainMenu, .subMenu {
     list-style-type: none;
 }
 .mainMenu {
-    /* background-color: blueviolet; */
     height: 5rem;
     transition: height;
 }
 .mainMenuTitles {
     display: inline-block;
-    /* background-color: beige; */
     height: 5rem;
     width: 13rem;
     line-height: 5rem;
@@ -97,22 +86,16 @@ div {
     padding-bottom: 1rem;
     margin-top: 0;
     text-align: center;
-    /* width: 50rem; */
     border: 1px solid silver;
-    /* border-left: 1px solid silver; */
-    /* border-right: 1px solid silver; */
     background-color: white;
 }
 .mainNav > .mainMenu {
     line-height: 40px;
-    /* background-color: blue; */
 }
 
 
 .mainNav > .mainMenu:hover .subMenu {
     display: block;
-    /* background-color: orange; */
-    /* transition-duration: 1s; */
 }
 .subMenuTitles {
     font-size: 1.3rem;

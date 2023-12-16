@@ -84,7 +84,6 @@
         height: 20rem;
         position: sticky;
         top: 14rem;
-        /* bottom: 0.5rem; */
     }
     .crItem:nth-child(3) {
         margin-bottom: 16.8rem;
@@ -102,23 +101,18 @@
         margin: 0.5rem;
     }
     .internDate {
-        /* background-color: blue; */
         width: 19rem;
     }
     .internExp {
-        /* background-color: blueviolet; */
         width: 27rem;
     }
     .lcsDate {
-        /* background-color: blue; */
         width: 10rem;
     }
     .lcsExp, .lcsSource {
-        /* background-color: blueviolet; */
         width: 18rem;
     }
     .etcExp {
-        /* background-color: violet; */
         width: 46rem;
     }
 </style>
