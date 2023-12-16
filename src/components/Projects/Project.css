@@ -1,0 +1,69 @@
+.projectWrapper {
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projSubArticle {
+    width: 87rem;
+    /* height: 100rem; */
+    /* background-color: antiquewhite; */
+    display: flex;
+}
+.projectDiv {
+    font-family: 'NanumBarunGothic';
+    font-size: 2rem;
+    margin-top: 6dvh;
+    margin-left: 2rem;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+.projSubTitleDiv {
+    font-family: 'JalnanGothic';
+    font-size: 3.5rem;
+}
+.projSubHr {
+    width: 30rem;
+    border: 1px solid silver;
+    float: left;
+}
+.projSubDiv {
+    display: flex;
+    /* background-color: brown; */
+    margin: 1rem;
+}
+.projCont {
+    font-weight: bolder;
+    width: 10rem;
+    font-size: 2.2rem;
+    /* background-color: blue; */
+}
+.projContUl {
+    width: 52rem;
+    /* background-color: green; */
+    margin: 0;
+}
+.projContLi:not(:last-of-type){
+    /* background-color: bisque; */
+    margin-bottom: 0.7rem;
+}
+.projContExp, .conclusion {
+    width: 52rem;
+    /* background-color: gold; */
+    padding-left: 2.5rem;
+}
+
+.forOtherProj {
+    font-family: 'NanumBarunGothic';
+    font-weight: bolder;
+    font-size: 1.5rem;
+    width: 20rem;
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid silver;
+    margin: 2dvh;
+    background-color: white;
+}
+.forOtherProj:hover {
+    border: 0.2rem solid darkblue;
+}

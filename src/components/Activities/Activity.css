@@ -1,0 +1,67 @@
+.activityArticle {
+    padding: 2rem;
+    width: 90rem;
+    background-color: white;
+    border-radius: 1rem;
+    border: 0.2rem solid silver;
+    box-shadow: 0.5rem 0.5rem 0.5rem silver;
+    display: flex;
+    transition: all 1s;
+}
+#visiting:hover {
+    border: 0.2rem solid forestgreen;
+    box-shadow: 0.5rem 0.5rem 0.5rem forestgreen;
+}
+#club:hover {
+    border: 0.2rem solid palevioletred;
+    box-shadow: 0.5rem 0.5rem 0.5rem palevioletred;
+}
+#boot:hover {
+    border: 0.2rem solid cornflowerblue;
+    box-shadow: 0.5rem 0.5rem 0.5rem cornflowerblue;
+}
+.activityDiv {
+    /* background-color: blue; */
+    font-family: 'NanumBarunGothic';
+    font-size: 2rem;
+    margin-top: 6dvh;
+    margin-left: 1rem;
+    /* flex-direction: column; */
+}
+.actSubTitleDiv {
+    font-family: 'JalnanGothic';
+    font-size: 3.5rem;
+}
+.actSubHr {
+    width: 20rem;
+    border: 1px solid silver;
+    float: left;
+}
+.actSubDiv {
+    /* background-color: brown; */
+    display: flex;
+    margin: 1rem;
+}
+.actSubDiv:not(:last-of-type) {
+    /* background-color: blue; */
+    margin-bottom: 1.5rem;
+}
+.actCont {
+    font-weight: bolder;
+    width: 10rem;
+    font-size: 2.2rem;
+    /* background-color: green; */
+}
+.actContDate {
+    width: 45rem;
+    padding-left: 2.5rem;
+    /* background-color: yellow; */
+}
+.actContUl {
+    width: 45rem;
+    margin: 0;
+    /* background-color: gray; */
+}
+.actContLi:not(:last-of-type) {
+    margin-bottom: 0.7rem;
+}

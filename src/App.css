@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'JalnanGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+div {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-use-select: none;
+    user-select: none;
+}
+
+.contentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5rem; */
+    min-height: 89dvh;
+    /* min-width: 181dvh; */
+    background-color: aliceblue;
+}
+
+.myHeader {
+    font-family: 'JalnanGothic';
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    font-size: 2.5rem;
+    /* height: 5rem; */
+    /* min-width: 181dvh; */
+    background-color: white;
+    /* background-color: transparent; */
+    box-shadow: 0 1px 4px silver;
+}
+.title {
+    flex: 1 0 auto;
+    font-weight: 700;
+    line-height: 5rem;
+    cursor: pointer;
+    padding-left: 1rem;
+    /* background-color: aquamarine; */
+    /* height: 15rem; */
+}
+
+.mainTitle, .mainMenuTitles, .subMenuTitles {
+    color: black;
+    text-decoration: none;
+}
+.mainTitle:hover, .mainMenuTitles:hover, .subMenuTitles:hover {
+    color: darkblue;
+}
+
+.mainNav {
+    flex: 2 0 auto;
+    display: flex;
+    padding: 0 1rem;
+    font-size: 1.7rem;
+    /* background-color: aqua; */
+    /* height: 15rem; */
+    justify-content: right;
+}
+.mainMenu, .subMenu {
+    list-style-type: none;
+}
+.mainMenu {
+    /* background-color: blueviolet; */
+    height: 5rem;
+    transition: height;
+}
+.mainMenuTitles {
+    display: inline-block;
+    /* background-color: beige; */
+    height: 5rem;
+    width: 13rem;
+    line-height: 5rem;
+    text-align: center;
+    margin-left: 0.5rem;
+}
+.subMenu {
+    display: none;
+    padding-left: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0;
+    text-align: center;
+    /* width: 50rem; */
+    border: 1px solid silver;
+    /* border-left: 1px solid silver; */
+    /* border-right: 1px solid silver; */
+    background-color: white;
+}
+.mainNav > .mainMenu {
+    line-height: 40px;
+    /* background-color: blue; */
+}
+
+
+.mainNav > .mainMenu:hover .subMenu {
+    display: block;
+    /* background-color: orange; */
+    /* transition-duration: 1s; */
+}
+.subMenuTitles {
+    font-size: 1.3rem;
+}
+.mainHr {
+    width: 11rem;
+}
+
+
+.mainView {
+    font-family: 'NanumBarunGothic';
+    margin-top: 5.5rem;
+}
